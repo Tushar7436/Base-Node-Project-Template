@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-router": "^0.0.1",
+    "http-status-codes": "^2.3.0",
+    "node": "^24.6.0",
+    "winston": "^3.17.0"
+  },
+  "name": "base_node_template",
+  "version": "1.0.0",
+  "description": "node_template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
